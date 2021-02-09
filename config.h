@@ -75,3 +75,4 @@ static const struct arg args[] = {
     {netspeed_tx, "%s]", "enp0s25"},
     {datetime, "%s", "[%a %T]"},
 };
+
