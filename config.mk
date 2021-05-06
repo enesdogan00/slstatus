@@ -11,8 +11,8 @@ X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
 
 # flags
-CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE
-CFLAGS   = -march=native -mtune=native -O3 -pipe -std=c99 -pedantic -Wall -Wextra -Os
+CPPFLAGS = -I$(X11INC) -D_DEFAULT_SOURCE -march=native -mtune=native -O3
+CFLAGS   = -march=native -mtune=native -O3 -pipe -std=c99 -pedantic -Wall -Wextra 
 LDFLAGS  = -L$(X11LIB) -s
 # OpenBSD: add -lsndio
 # FreeBSD: add -lkvm
