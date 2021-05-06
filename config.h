@@ -73,6 +73,6 @@ static const struct arg args[] = {
     {swap_used, "%s]", NULL},
     {netspeed_rx, "[NET:%s|", "enp0s25"},
     {netspeed_tx, "%s]", "enp0s25"},
-    {datetime, "%s", "[%a %T]"},
+    {datetime, "%s", "[%d %a %r]"},
 };
 
