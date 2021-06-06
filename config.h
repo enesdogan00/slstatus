@@ -65,13 +65,13 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function, format, argument */
-    {run_command, "[%s]", "cat /dev/shm/song"},
-    {cpu_perc, "[CPU:%s%|", NULL},
+    {run_command, "[:%s]", "cat /dev/shm/song"},
+    {cpu_perc, "[:%s%|", NULL},
     {temp, "%2s°]",
      "/sys/devices/platform/coretemp.0/hwmon/hwmon0/temp2_input"},
-    {ram_used, "[RAM:%s|", NULL},
+    {ram_used, "[:%s|", NULL},
     {swap_used, "%s]", NULL},
-    {netspeed_rx, "[NET:%s|", "enp0s25"},
+    {netspeed_rx, "[:%s|", "enp0s25"},
     {netspeed_tx, "%s]", "enp0s25"},
     {datetime, "%s", "[%d %a %r]"},
 };
