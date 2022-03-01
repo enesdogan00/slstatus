@@ -65,13 +65,13 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function, format, argument */
-    {run_command, "[:%s]", "playerctl metadata --format '{{artist}}:{{title}}'"},
+    {run_command, "[:%s]", "playerctl metadata --format '{{artist}}:{{title}}'"},
     {cpu_perc, "[:%s%|", NULL},
     {temp, "%2s°]",
      "/sys/class/thermal/thermal_zone0/temp"},
     {ram_used, "[:%s|", NULL},
     {swap_used, "%s]", NULL},
-    {netspeed_rx, "[:%s|", "wlo1"},
+    {netspeed_rx, "[:%s|", "wlo1"},
     {netspeed_tx, "%s]", "wlo1"},
     {battery_perc, "[:%s%|", "BAT1"},
     {battery_remaining, "%s]", "BAT1"},
